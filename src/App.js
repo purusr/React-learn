@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import React from 'react';
+import Cards from './components/Cards';
+import Useapi from './components/Useapi';
+import Test from './components/Test';
+import Card from './components/Card';
 
-function App() {
+function App() {      
+  // const [starWarsData, setStarWarsData] = React.useState({})
+  
+  // React.useEffect(function() {
+  //     console.log("Effect ran")
+  //     fetch("http://localhost:5000/products")
+  //         .then(res => res.json())
+  //         .then(data => setStarWarsData(data))
+  // }, [])
+  // console.log('I am from main');
+  // console.log(starWarsData.title);
+  // console.log(starWarsData.image);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+       <Header/>
+       <Main />
+       <Footer/>
+     </>
+  )
+
+
+
 }
 
 export default App;
