@@ -9,6 +9,7 @@ import Test from './components/Test';
 import Card from './components/Card';
 
 function App() {      
+  console.log("hello from learn")
   // const [starWarsData, setStarWarsData] = React.useState({})
   
   // React.useEffect(function() {
