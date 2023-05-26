@@ -9,7 +9,6 @@ import Test from './components/Test';
 import Card from './components/Card';
 
 function App() {      
-  console.log('On learn branch')
   // const [starWarsData, setStarWarsData] = React.useState({})
   
   // React.useEffect(function() {
