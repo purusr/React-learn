@@ -1,6 +1,6 @@
 function Card({key}){
   console.log('I am from function card')
-  console.log();
+  console.log("I am testing another one on third one");
  
 
   return ( 
