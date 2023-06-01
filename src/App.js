@@ -12,7 +12,7 @@ function App() {
   console.log("hello from learn")
   console.log('testing before') 
 console.log('clearing')
-  
+  console.log("adding something")
   // const [starWarsData, setStarWarsData] = React.useState({})
   
   // React.useEffect(function() {
