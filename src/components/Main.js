@@ -5,7 +5,7 @@ import Useapi from "./Useapi";
 import React from "react";
 
 function Main(){
-
+console.log('from learn')
  const [starData, setStarData] = React.useState({})
  const [count, setCount] = React.useState(1)
   
