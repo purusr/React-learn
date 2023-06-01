@@ -11,7 +11,7 @@ import Card from './components/Card';
 function App() {     
   console.log("hello from learn")
   console.log('testing before') 
-  console.log('testing oncegain for fetch')
+  console.log('testing oncegain for')
   // const [starWarsData, setStarWarsData] = React.useState({})
   
   // React.useEffect(function() {
