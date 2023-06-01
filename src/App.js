@@ -13,7 +13,7 @@ function App() {
   console.log('testing before') 
   console.log('testing fetch for main')
   console.log("something from learn")
-  
+  console.log("adding something")
   // const [starWarsData, setStarWarsData] = React.useState({})
   
   // React.useEffect(function() {
